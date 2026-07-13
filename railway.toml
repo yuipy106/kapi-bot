@@ -1,0 +1,6 @@
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "python -u kapibot/main.py"
+restartPolicyType = "always"
